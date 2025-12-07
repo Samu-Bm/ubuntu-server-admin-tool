@@ -24,13 +24,16 @@ Este proyecto ha sido creado como parte del ciclo formativo **SMR (Sistemas Micr
 
 ## ▶️ Cómo usar el script
 
-1. Dar permisos de ejecución:
+1.  **Dar permisos de ejecución:**
 
-```bash
-chmod +x MenuUbuntuServer.sh
+    ```bash
+    chmod +x MenuUbuntuServer.sh
+    ```
 
-sudo ./MenuUbuntuServer.sh
+2.  **Ejecutar el script:**
 
-
+    ```bash
+    sudo ./MenuUbuntuServer.sh
+    ```
 
 
