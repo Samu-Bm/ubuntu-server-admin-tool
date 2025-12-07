@@ -3,7 +3,6 @@
 # Script creado por  Samu-Bm para la asignatura de Programacion del ciclo formativo SMR (Sistemas Microinformáticos y Redes)
 
 # COLORES
-
 RED="\e[1;31m"
 GREEN="\e[1;32m"
 YELLOW="\e[1;33m"
@@ -12,7 +11,6 @@ RESET="\e[0m"
 
 # Necesitamos que el script se ejecute como root para que podamos ejecutar comandos como administrador
 # primero lo comprobamos y si no lo somos nos avisa.
-
 if  [ "$(id -u)" -ne 0 ]
 then
 echo -e "${RED}"
@@ -26,7 +24,6 @@ exit 1
 fi
 
 # CONFIGURACION OPCION 3 NETPLAN
-
 netplanconfig()
 {
 echo -e "${YELLOW}"
@@ -91,7 +88,6 @@ Fin
 
 
 # MENU PRINCIPAL
-
 while true; do
 clear
 
